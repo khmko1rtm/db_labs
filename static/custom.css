@@ -1,0 +1,7 @@
+.topbar, .swagger-ui .topbar, .swagger-ui .topbar-wrapper {
+    background: #165516 !important;
+    color: #fff !important;
+}
+.swagger-ui .topbar * {
+    color: #fff !important;
+}

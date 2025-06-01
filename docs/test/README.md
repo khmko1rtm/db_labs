@@ -10,53 +10,63 @@ outline: deep
 ### 1. Встановити залежнсті проекту
 
 ```bash
-yarn
+pip install -U fastapi
+pip show fastapi
+pip install uvicorn
 ```
 
 ### 2. Запустити сервер
 
 ```bash
-yarn run start:dev
+uvicorn src.api.main:app --reload
 ```
 
 ## Перевірка працездатности сервісів
 
-### GET: отримати всі запитання
+### POST: Створити користувача
 
-![alt text](1.png)
+![alt text](1.jpeg)
 
-### GET: отримати конкретне запитання
+### GET: Отримати список всіх користувачів
 
-![alt text](2.png)
+![alt text](2.jpeg)
 
-### POST: створити запитання
+### PUT: Оновити користувача
 
 ![alt text](3.png)
 
-### PUT: оновити запитання
+### DELETE: Видалити користувача
 
-![alt text](4.png)
+![alt text](4.jpeg)
 
-### DELETE: вилучити запитання
+### POST: Створити роль
 
-![alt text](5.png)
+![alt text](5.jpeg)
 
-### GET: отримати всі типи запитаннь
+### GET: Отримати усі ролі
 
-![alt text](6.png)
+![alt text](6.jpeg)
 
-### GET: отримати конкретний тип запитання
+### PUT: Оновити роль
 
-![alt text](7.png)
+![alt text](7.jpeg)
 
-### POST: створити тип запитання
+### DELETE: Видалити роль
 
-![alt text](8.png)
+![alt text](8.jpeg)
 
-### PUT: оновити тип запитання
+### POST: Створити дозвіл
 
-![alt text](9.png)
+![alt text](9.jpeg)
 
-### DELETE: вилучити тип запитання
+### GET: Отримати всі дозволи
 
-![alt text](10.png)
+![alt text](10.jpeg)
+
+### PUT: Оновити дозвіл     
+
+![alt text](11.jpeg)
+
+### DELETE: Видалити дозвіл
+
+![alt text](12.jpeg)
