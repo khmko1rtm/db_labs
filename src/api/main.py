@@ -44,10 +44,6 @@ class PermissionDB(Base):
 
 Base.metadata.create_all(bind=engine)
 
-# ========================
-#     Pydantic Schemas
-# ========================
-
 # --- USER
 class UserCreate(BaseModel):
     username: str
